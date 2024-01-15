@@ -35,7 +35,6 @@ img > figure{
   height: 100vh;
 }
 
-<<<<<<< HEAD
 * {box-sizing: border-box;}
 
 body { 
@@ -92,7 +91,7 @@ body {
   }
 }
 
-=======
+
 h1 {
   font-size: 50px;
   margin-bottom:20px;
@@ -100,5 +99,4 @@ h1 {
   font-weight:500;
 
 }
->>>>>>> 94d020210709792149adb2b05155eb748ebf2876
 
