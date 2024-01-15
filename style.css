@@ -1,16 +1,16 @@
-img > figure{
-    height: 100%;
-}
-
-.bg {
-  /* The image used */
-  background-image: url("img_girl.jpg");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
+body {
+  background-image: url("images/background.png");
+  background-size: contain;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0;
+  padding: 0;
 }
+img > figure{
+  background-image: url("img_girl.jpg");
+  background-size: contain;
+  width: 200px;
+  height: 100vh;
+}
+
+
