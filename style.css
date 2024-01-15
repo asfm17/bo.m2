@@ -13,4 +13,11 @@ img > figure{
   height: 100vh;
 }
 
+h1 {
+  font-size: 50px;
+  margin-bottom:20px;
+  border-bottom: 1px solid black;
+  font-weight:500;
+
+}
 
