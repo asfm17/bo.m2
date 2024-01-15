@@ -6,6 +6,28 @@ body {
   margin: 0;
   padding: 0;
 }
+
+h1 {
+  font-size: 90px;
+  color: white;
+  margin-bottom:20px;
+  border-bottom: 1px solid white;
+  font-weight:400;
+
+}
+
+h1 > header{
+   color:white;
+   text-align: center;
+   font-size:150%;
+   height:100px;
+   
+}
+
+img > header{
+    margin-right:40px;
+}
+
 img > figure{
   background-image: url("img_girl.jpg");
   background-size: contain;
@@ -13,6 +35,64 @@ img > figure{
   height: 100vh;
 }
 
+<<<<<<< HEAD
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color:black;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 25px; 
+  line-height: 25px;
+  border-radius: 4px;
+  padding-left:450px;
+}
+
+.header a.logo {
+  font-size: 25px;
+
+  
+}
+
+.header a:hover {
+  background-color: black;
+  color: black;
+}
+
+.header a.active {
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+
+=======
 h1 {
   font-size: 50px;
   margin-bottom:20px;
@@ -20,4 +100,5 @@ h1 {
   font-weight:500;
 
 }
+>>>>>>> 94d020210709792149adb2b05155eb748ebf2876
 
