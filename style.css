@@ -1,18 +1,22 @@
 body {
-  background-image: url("images/background.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-size: cover;
+  
   margin: 0;
   padding: 0;
 }
-
+main{
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
 h1 {
   font-size: 90px;
   color: white;
+  padding-top: 0;
+  margin-top: 0;
   margin-bottom:20px;
   border-bottom: 1px solid white;
-  font-weight:400;
+  font-weight:500;
 
 }
 
@@ -63,7 +67,7 @@ body {
   font-size: 25px; 
   line-height: 25px;
   border-radius: 4px;
-  margin-left: 10px;
+  margin-left: 80px;
 }
 
 .header a.logo {
@@ -74,11 +78,7 @@ body {
 
 .header a:hover {
   background-color: black;
-  color: black;
-}
-
-.header a.active {
-  color: white;
+  color: grey;
 }
 
 .header-right {
@@ -99,10 +99,14 @@ body {
 
 
 h1 {
-  font-size: 50px;
+  font-size: 80px;
   margin-bottom:20px;
   border-bottom: 1px solid white;
   font-weight:500;
-
+  padding-top:150px;
 }
 
+footer{
+  height:500px;
+  background-color:black;
+}
