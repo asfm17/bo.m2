@@ -105,6 +105,9 @@ h1 {
   font-weight:500;
   padding-top:150px;
 }
+.flex-container {
+  display: flex;
+}
 
 footer{
   height:500px;
