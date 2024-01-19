@@ -105,4 +105,24 @@ h1 {
   font-weight:500;
 
 }
+.flex-container {
+  display: flex;
+}
 
+footer {
+  display: flex;
+  flex-basis: auto;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 180px;
+  color:white;
+}
+
+.footer-section{
+  background: green;
+  height: 200px;
+  width: 30%;
+}
+.foooter-header{
+  
+}
