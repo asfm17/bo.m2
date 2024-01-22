@@ -125,7 +125,7 @@ footer{
 .flex-container{
   display: flex;
   justify-content: center;
-<<<<<<< HEAD
+  gap: 8px;
 }
 
 p{
@@ -137,13 +137,8 @@ p{
   font: size 30px;
 }
 
-=======
-  gap: 8px;
-}
 
-.footer-header{
-  border-bottom: 1px solid red;   
-}
+
 .naam1{
   font-size: 100px;
   color:black;
@@ -156,7 +151,3 @@ p{
   padding-left:20px;
   font-family:'roboto';
 }
-
-
-
->>>>>>> c658c4028790986288ad2aa21e8254934722a675
