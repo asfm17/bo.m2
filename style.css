@@ -20,7 +20,7 @@ h1 > header{
    color:white;
    text-align: center;
    font-size:150%;
-   height:100px;
+   height:175px;
    
 }
 
@@ -63,7 +63,7 @@ body {
   font-size: 25px; 
   line-height: 25px;
   border-radius: 4px;
-  margin-left: 10px;
+  margin-left: 80px;
 }
 
 .header a.logo {
@@ -123,6 +123,16 @@ footer {
   height: 200px;
   width: 30%;
 }
-.foooter-header{
-  
+
+h1 {
+  font-size: 80px;
+  margin-bottom:20px;
+  border-bottom: 1px solid white;
+  font-weight:500;
+  padding-top:150px;
+}
+
+footer{
+  height:500px;
+  background-color:black;
 }
