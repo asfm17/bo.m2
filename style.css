@@ -24,7 +24,7 @@ h1 > header{
    color:white;
    text-align: center;
    font-size:150%;
-   height:100px;
+   height:175px;
    
 }
 
@@ -109,4 +109,10 @@ h1 {
 footer{
   height:500px;
   background-color:black;
+}
+
+.footer-section{
+  background: green;
+  height: 200px;
+  width: 30%;
 }
