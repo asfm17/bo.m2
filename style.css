@@ -116,3 +116,28 @@ footer{
   height: 200px;
   width: 30%;
 }
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.footer-header{
+  border-bottom: 1px solid red;   
+}
+.naam1{
+  font-size: 100px;
+  color:black;
+  font-family:'roboto';
+}
+
+.naam2{
+  font-size:50px;
+  color: white;
+  padding-left:20px;
+  font-family:'roboto';
+}
+
+
+
